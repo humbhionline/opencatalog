@@ -11,7 +11,7 @@ Provide a self serviced catalog management to their sellers. This is usually suf
 For Platforms that are market places, the approach of While labeled seller platforms does not work. As the buyers need to relate to products sold on the platform in the same manner across Sellers. To give this experience,  market places , provide a large global catalog within their platform and sellers typically choose from that catalog, products, they are selling on the platform. This ensures that buyers who come to a marketplace see products in a consistent manner across sellers on the platforms.  Adding new products usually requires platforms to come up with professional images, descriptions and other catalog attributes etc and publish them before sellers can use. 
 
 ### The ondc dimension 
-With open networks like ONDC (Open network for digital commerce), coming into play, There is now a need to have consistent product characteristics across all seller platforms. The natural choice was to have a catalog at the network level which would be used by all participants to cross reference products being traded in the network. 
+With open networks like ONDC (Open network for digital commerce), coming into play, There is now a need to have consistent product characteristics across all seller platforms. The natural choice is to have a catalog at the network level which would be used by all participants to cross reference products being traded in the network. 
 
 
 
@@ -22,7 +22,7 @@ With open networks like ONDC (Open network for digital commerce), coming into pl
 4. Platforms can use GTIN/UPC for cross referencing products in their catalog and with the global catalog. 
 
 
-## How? 
+## The Approach.
 How do you go about building this open catalog that would be usable by all platforms? 
 
 ### Open community driven process. 
