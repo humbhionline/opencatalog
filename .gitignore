@@ -1,0 +1,7 @@
+/target/
+/.settings/
+.commit
+/*/.idea/
+**/.flattened-pom.xml
+**/*.iml
+*/_*/
