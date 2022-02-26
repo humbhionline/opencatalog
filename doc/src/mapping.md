@@ -13,7 +13,7 @@ descriptor.images|Array of urls <br> Url's procotcol could be http(s) or data:
 tags.brand|Brand name|UK2,UK3
 tags.model|e.g Pepsi cola when descriptor.name is Pepsi Cola 200ml, usually it is a substring of descriptor.name|UK2
 tags.variant|200 ml , 500ml etc for Pepsi.|UK2
-tags.hsn_code|HSN Code  of the model that determines the tax  rate.
+tags.asset_code|Asset Code  of the model that determines the tax  rate. (HSN/SAC Code)
 tags.country_of_origin|Country of Origin
 tags.key_words|Keywords associated with the Product
 tags.shelf_life_in_days|Shelf Life in Days 
