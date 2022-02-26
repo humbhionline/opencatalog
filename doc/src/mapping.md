@@ -15,6 +15,14 @@ tags.model|e.g Pepsi cola when descriptor.name is Pepsi Cola 200ml, usually it i
 tags.variant|200 ml , 500ml etc for Pepsi.|UK2
 tags.hsn_code|HSN Code  of the model that determines the tax  rate.
 tags.country_of_origin|Country of Origin
+tags.key_words|Keywords associated with the Product
+tags.shelf_life_in_days|Shelf Life in Days 
+tags.refrigeration_required|Whether the product requires refrigeration
+tags.color_of_the_dot|red or green to indicate animal products or plant based product.
+
+
+
+
 
 Questions:
 -

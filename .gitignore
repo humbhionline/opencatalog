@@ -5,3 +5,6 @@
 **/.flattened-pom.xml
 **/*.iml
 */_*/
+tmp/**
+nohup.out
+database/*
