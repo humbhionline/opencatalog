@@ -65,7 +65,7 @@
     </dependency>
       <dependency>
           <groupId>com.github.venkatramanm.swf-all</groupId>
-          <artifactId>swf</artifactId>
+          <artifactId>swf-plugin-gst</artifactId>
           <version>${revision}</version>
       </dependency>
         <dependency>

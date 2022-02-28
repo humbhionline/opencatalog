@@ -7,4 +7,5 @@
 */_*/
 tmp/**
 nohup.out
-database/*
+database/*db
+overrideProperties/

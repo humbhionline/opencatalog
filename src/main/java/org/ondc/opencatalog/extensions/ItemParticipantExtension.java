@@ -16,7 +16,7 @@ public class ItemParticipantExtension extends ParticipantExtension<Item> {
     @Override
     protected List<Long> getAllowedFieldValues(User user, Item partiallyFilledModel, String fieldName) {
         if (fieldName.equals("BRAND_ID")){
-            return user.getRawRecord().getAsProxy(org.ondc.opencatalog.db.model.User.class).getManagedBrands().stream().map(Brand::getManagerId).collect(Collectors.toList());
+            return user.getRawRecord().getAsProxy(org.ondc.opencatalog.db.model.User.class).getManagedBrands().stream().map(Brand::getId).collect(Collectors.toList());
         }
         return null;
     }

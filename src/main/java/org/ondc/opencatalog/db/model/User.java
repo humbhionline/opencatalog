@@ -5,7 +5,7 @@ import com.venky.swf.db.model.Model;
 
 import java.util.List;
 
-public interface User extends Model {
+public interface User extends com.venky.swf.plugins.collab.db.model.user.User {
     @CONNECTED_VIA("MANAGER_ID")
     public List<Brand> getManagedBrands();
 }

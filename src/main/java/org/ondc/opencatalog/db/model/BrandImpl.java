@@ -15,4 +15,15 @@ public class BrandImpl extends ModelImpl<Brand> {
     public User getAnyUser(){
         return null;
     }
+
+    public Long getAnyCompanyId(){
+        return null;
+    }
+    public void setAnyCompanyId(Long id){
+
+    }
+    public Company getAnyCompany(){
+        return null;
+    }
+
 }
