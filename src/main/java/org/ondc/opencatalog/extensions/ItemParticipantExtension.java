@@ -1,23 +1,12 @@
 package org.ondc.opencatalog.extensions;
 
-import com.venky.swf.db.extensions.ParticipantExtension;
-import com.venky.swf.db.model.User;
-import org.ondc.opencatalog.db.model.Brand;
+import com.venky.swf.plugins.collab.extensions.participation.CompanySpecificParticipantExtension;
 import org.ondc.opencatalog.db.model.Item;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class ItemParticipantExtension extends ParticipantExtension<Item> {
+public class ItemParticipantExtension extends CompanySpecificParticipantExtension<Item> {
     static {
         registerExtension(new ItemParticipantExtension());
-    }
-    @Override
-    protected List<Long> getAllowedFieldValues(User user, Item partiallyFilledModel, String fieldName) {
-        if (fieldName.equals("BRAND_ID")){
-            return user.getRawRecord().getAsProxy(org.ondc.opencatalog.db.model.User.class).getManagedBrands().stream().map(Brand::getId).collect(Collectors.toList());
-        }
-        return null;
     }
 }
