@@ -8,7 +8,7 @@
   <description>opencatalog</description>
     <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <revision>2.6-SNAPSHOT</revision>
+      <revision>2.8</revision>
     </properties>
     <build>
         <plugins>

@@ -8,5 +8,6 @@
 tmp/**
 nohup.out
 database/*db
+database/draft
 overrideProperties/
 *.out
