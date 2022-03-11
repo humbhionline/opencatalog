@@ -2,7 +2,7 @@
 ## Item
 AttributeName|Description|Unique Key
 -|-|-
-id|Generated  ONDC id
+id|Generated  ONDC id|Primary Key
 company.name| Name of the company| UK2,UK3
 descriptor.name|SKU Name|UK3
 descriptor.code|UPC/GSTIN|UK1
@@ -19,7 +19,7 @@ tags.key_words|Keywords array associated with the Product
 tags.shelf_life_in_days|Shelf Life in Days 
 tags.refrigeration_required|Whether the product requires refrigeration
 tags.color_of_the_dot|red or green to indicate animal products or plant based product.
-tags.gst_pct|Gst Percent derived from asset_code.
+tags.gst_pct|Gst Percent derived from asset_code. (If it is passed, we will update asset_codes database also if we don't know the asset_code. This way the asset_code database will also keep getting current with new  codes as fed by the brand owners)
 
 
 
